@@ -5,7 +5,7 @@
         <content>
             <VBox id="hbox" justifyContent="Center" alignItems="Center">
                 <Button id="home_btn1" text="{i18n>buttonText}" press="onButtonPress"></Button>
-                <Label id="home_label1" text="{i18n>labelText}"></Label>
+                <Label id="home_label1" text="{i18n>labelText}" class="sapMH1FontSize"></Label>
             </VBox>
         </content>
     </Page>

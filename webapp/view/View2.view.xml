@@ -1,12 +1,24 @@
 <mvc:View controllerName="com.clientname.b70sapui5.controller.View2"
     xmlns:mvc="sap.ui.core.mvc"
     xmlns="sap.m">
-    <Page id="view2Page" title="I am View 2">
+    <Page id="view2Page" title="I am View 2" showNavButton="true" navButtonPress="onButtonPress2">
         <content>
-            <VBox id="hbox2" justifyContent="Center" alignItems="Center">
-                <Button id="home_btn2" text="Go Back" press="onButtonPress2"></Button>
-                <Label id="home_label2" text="{i18n>labelText}"></Label>
-            </VBox>
+            <!-- <HBox id="hbox2" width="100%"> -->
+                
+                <Text id="home_text1" text="Welcome to SAP UI5" textAlign="Center" width="100%" class="sapMH1FontSize"></Text>
+                <Label id="home_label2" text="Enter your name" required="true" class="myTextFontSize"></Label>
+                <Input id="home_input1" width="30%" maxLength="10" value="" class="sapUiSmallMarginEnd sapUiSmallMarginBegin"></Input>
+                <Button id="home_btn2" text="Button Styles" type="Emphasized"></Button>
+            <!-- </HBox> -->
         </content>
+        <footer>
+			<OverflowToolbar>
+				<ToolbarSpacer/>
+				<Button text="Accept" type="Accept" />
+				<Button text="Reject" type="Reject" />
+				<Button text="Edit" />
+				<Button text="Delete" />
+			</OverflowToolbar>
+		</footer>
     </Page>
 </mvc:View>
