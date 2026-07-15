@@ -3,8 +3,10 @@
     xmlns="sap.m">
     <Page id="view2Page" title="I am View 2">
         <content>
-            <Button id="home_btn2" text="page 2" press="onButtonPress"></Button>
-            <Label id="home_label2" text="{i18n>labelText}"></Label>
+            <VBox id="hbox2" justifyContent="Center" alignItems="Center">
+                <Button id="home_btn2" text="Go Back" press="onButtonPress2"></Button>
+                <Label id="home_label2" text="{i18n>labelText}"></Label>
+            </VBox>
         </content>
     </Page>
 </mvc:View>
