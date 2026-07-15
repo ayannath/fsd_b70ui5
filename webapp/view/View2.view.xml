@@ -4,6 +4,7 @@
     <Page id="view2Page" title="I am View 2">
         <content>
             <Button id="home_btn2" text="page 2" press="onButtonPress"></Button>
+            <Label id="home_label2" text="{i18n>labelText}"></Label>
         </content>
     </Page>
 </mvc:View>

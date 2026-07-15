@@ -1,9 +1,10 @@
 <mvc:View controllerName="com.clientname.b70sapui5.controller.Main"
     xmlns:mvc="sap.ui.core.mvc"
     xmlns="sap.m">
-    <Page id="page" title="{i18n>title}">
+    <Page id="page" title="{i18n>title} I am Main View">
         <content>
             <Button id="home_btn1" text="{i18n>buttonText}" press="onButtonPress"></Button>
+            <Label id="home_label1" text="{i18n>labelText}"></Label>
         </content>
     </Page>
 </mvc:View>
