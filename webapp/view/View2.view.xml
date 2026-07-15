@@ -1,0 +1,9 @@
+<mvc:View controllerName="com.clientname.b70sapui5.controller.View2"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="view2Page" title="I am View 2">
+        <content>
+            <Button id="home_btn2" text="page 2" press="onButtonPress"></Button>
+        </content>
+    </Page>
+</mvc:View>
