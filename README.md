@@ -28,8 +28,10 @@ An SAP Fiori application.
     npm start
 ```
 
-#### Pre-requisites:
+## Pre-requisites:
 
 1. Active NodeJS LTS (Long Term Support) version and associated supported NPM version.  (See https://nodejs.org)
 
-
+## url for the tutorial
+- SAP UI5  FIORI with BAS by SAP Full Stack Custom Development
+- https://www.youtube.com/playlist?list=PLddSZKEXaBr8FuFiVkalkreikdYn1JivX
