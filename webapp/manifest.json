@@ -86,7 +86,21 @@
           "target": [
             "TargetView2"
           ]
-        }
+        },
+        {
+          "name": "RouteView3",
+          "pattern": "view3",
+          "target": [
+            "TargetView3"
+          ]
+        },
+        {
+          "name": "RouteView4",
+          "pattern": "view4grid",
+          "target": [
+            "TargetView4"
+          ]
+        } 
       ],
       "targets": {
         "TargetMain": {
@@ -97,6 +111,16 @@
         "TargetView2": {
           "id": "View2",
           "name": "View2",
+          "transition": "slide"
+        },
+        "TargetView3": {
+          "id": "View3",
+          "name": "View3",
+          "transition": "slide"
+        },
+        "TargetView4": {
+          "id": "View4Grid",
+          "name": "View4Grid",
           "transition": "slide"
         }
       }

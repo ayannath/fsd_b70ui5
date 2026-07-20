@@ -1,13 +1,12 @@
-<mvc:View
-	height="100%"
-	xmlns:mvc="sap.ui.core.mvc"
-	xmlns="sap.m">
-	<Page
-		title="Title"
+<mvc:View controllerName="com.clientname.b70sapui5.controller.View3"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+	<Page id="idPageTitleBtn3"
+		title="View 3 Title"
 		class="sapUiContentPadding sapUiResponsivePadding--header sapUiResponsivePadding--subHeader sapUiResponsivePadding--content sapUiResponsivePadding--footer"
-		showNavButton="true" >
+		showNavButton="true" navButtonPress="onHistory3">
 		<headerContent>
-			<Button icon="sap-icon://action" tooltip="Share" />
+			<Button icon="sap-icon://action" tooltip="Share"/>
 		</headerContent>
 		<subHeader>
 			<OverflowToolbar>
@@ -23,9 +22,7 @@
 			<OverflowToolbar>
 				<ToolbarSpacer/>
 				<Button text="Accept" type="Accept" />
-				<Button text="Reject" type="Reject" />
-				<Button text="Edit" />
-				<Button text="Delete" />
+				<Button id="idNextBtn" text="Next" type="Emphasized" press="onPageView4Grid" />
 			</OverflowToolbar>
 		</footer>
 	</Page>

@@ -1,0 +1,44 @@
+<mvc:View controllerName="com.clientname.b70sapui5.controller.View4Grid"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m" xmlns:l="sap.ui.layout">
+    <Page id="page" title="Grid Page Demo" showNavButton="true" navButtonPress="onNavBack">
+        <content>
+            <Panel id="idPanelEmployee" headerText="Employee Details" expandable="true" expanded="true">
+                <l:Grid id="idGridEmployee" defaultSpan="L6 M6 S12" hSpacing="1" vSpacing="0">
+                    <l:content>
+                        <Label text="Employee ID"></Label>
+                        <Input></Input>
+                        <Label text="Employee Name"></Label>
+                        <Input></Input>
+                        <Label text="Employee Designation"></Label>
+                        <Input></Input>
+                        <Label text="Employee Skill"></Label>
+                        <Input></Input>
+                        <Label text="Employee Email Id"></Label>
+                        <Input></Input>
+                        <Label text="Employee Phone Number"></Label>
+                        <Input></Input>
+                    </l:content>
+                </l:Grid>
+            </Panel>
+            <Panel id="idPanelFamily" headerText="Family Details" expandable="true" expanded="true">
+                <l:Grid id="idGridFamily" defaultSpan="L6 M6 S12" hSpacing="1" vSpacing="0">
+                    <l:content>
+                        <Label text="Employee ID"></Label>
+                        <Input></Input>
+                        <Label text="Employee Name"></Label>
+                        <Input></Input>
+                        <Label text="Employee Designation"></Label>
+                        <Input></Input>
+                        <Label text="Employee Skill"></Label>
+                        <Input></Input>
+                        <Label text="Employee Email Id"></Label>
+                        <Input></Input>
+                        <Label text="Employee Phone Number"></Label>
+                        <Input></Input>
+                    </l:content>
+                </l:Grid>
+            </Panel>
+        </content>
+    </Page>
+</mvc:View>
