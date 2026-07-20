@@ -33,5 +33,5 @@ An SAP Fiori application.
 1. Active NodeJS LTS (Long Term Support) version and associated supported NPM version.  (See https://nodejs.org)
 
 ## url for the tutorial
-- SAP UI5  FIORI with BAS by SAP Full Stack Custom Development
-- https://www.youtube.com/playlist?list=PLddSZKEXaBr8FuFiVkalkreikdYn1JivX
+- SAP UI5  FIORI with BAS by "SAP Full Stack Custom Development"
+- playlist: https://www.youtube.com/playlist?list=PLddSZKEXaBr8FuFiVkalkreikdYn1JivX
