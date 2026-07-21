@@ -4,7 +4,56 @@
     <Page id="idView6ObjectHeader" title="View 6: Object Header" class="sapUiContentPadding sapUiResponsivePadding--header sapUiResponsivePadding--subHeader sapUiResponsivePadding--content sapUiResponsivePadding--footer" showNavButton="true"
         navButtonPress="onNavBack">
         <content>
-            <Text text="Welcome to View 6"></Text>
+            <!-- Object Header is a UI element that displays a title, number, and other information in a visually distinct manner -->
+            <ObjectHeader title="Object Header" number="100.00" numberUnit="INR" backgroundDesign="Solid" intro="Intro Text" icon="sap-icon://employee">
+                <attributes>
+                    <ObjectAttribute title="Employee ID" text="1000001"></ObjectAttribute>
+                    <ObjectAttribute title="Employee Designation" text="Team Lead"></ObjectAttribute>
+                    <ObjectAttribute title="Employee Department" text="Sales"></ObjectAttribute>
+                </attributes>
+                <statuses>
+                    <ObjectStatus title="Employee Status" text="Contract" state="Information"></ObjectStatus>
+                    <ObjectStatus title="Employee Availability" text="Offline" state="Error"></ObjectStatus>
+                    <ObjectStatus title="Employee Performance" text="Good" state="Success"></ObjectStatus>
+                </statuses>
+            </ObjectHeader>
+
+            <!-- Icon Tab bar -->
+            <IconTabBar id="idIconTabBar" class="sapUiResponsivePadding--content">
+                <items>
+                    <IconTabFilter id="idIconTabFilter1" text="Details" icon="sap-icon://employee">
+                        <content>
+                            <f:SimpleForm id="idSimpleForm" title="Employee Details" editable="true" layout="ResponsiveGridLayout" labelSpanL="6" labelSpanM="6" emptySpanL="4" emptySpanM="4">
+                                <f:content>
+                                    <Label text="Employee ID" class="sapUiTinyMarginTop"></Label>
+                                    <Input></Input>
+                                    <Label text="Employee Name" class="sapUiTinyMarginTop"></Label>
+                                    <Input></Input>
+                                    <Label text="Employee Designation" class="sapUiTinyMarginTop"></Label>
+                                    <Input></Input>
+                                    <Label text="Employee Skill" class="sapUiTinyMarginTop"></Label>
+                                    <Input></Input>
+                                    <Label text="Employee Email Id" class="sapUiTinyMarginTop"></Label>
+                                    <Input></Input>
+                                    <Label text="Employee Phone Number" class="sapUiTinyMarginTop"></Label>
+                                    <Input></Input>
+                                </f:content>
+                            </f:SimpleForm>
+                        </content>
+                    </IconTabFilter>
+                    <IconTabFilter id="idIconTabFilter2" text="Notes" icon="sap-icon://notes">
+                        <content>
+                            <Text text="Content for Notes tab"/>
+                        </content>
+                    </IconTabFilter>
+                    <IconTabFilter id="idIconTabFilter3" text="Documents" icon="sap-icon://document">
+                        <content>
+                            <Text text="Content for Documents tab"/>
+                        </content>
+                    </IconTabFilter>
+                </items>
+            </IconTabBar>
+
         </content>
     </Page>
 </mvc:View>
