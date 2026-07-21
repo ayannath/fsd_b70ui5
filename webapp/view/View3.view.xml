@@ -2,7 +2,7 @@
     xmlns:mvc="sap.ui.core.mvc"
     xmlns="sap.m">
 	<Page id="idPageTitleBtn3"
-		title="View 3 Title"
+		title="View 3: Simple Page Demo"
 		class="sapUiContentPadding sapUiResponsivePadding--header sapUiResponsivePadding--subHeader sapUiResponsivePadding--content sapUiResponsivePadding--footer"
 		showNavButton="true" navButtonPress="onHistory3">
 		<headerContent>
@@ -22,7 +22,7 @@
 			<OverflowToolbar>
 				<ToolbarSpacer/>
 				<Button text="Accept" type="Accept" />
-				<Button id="idNextBtn" text="Next" type="Emphasized" press="onPageView4Grid" />
+				<Button id="idNextBtn" text="Next" type="Emphasized" press="onPageView3Grid" />
 			</OverflowToolbar>
 		</footer>
 	</Page>

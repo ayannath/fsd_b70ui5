@@ -1,7 +1,7 @@
 <mvc:View controllerName="com.clientname.b70sapui5.controller.Main"
     xmlns:mvc="sap.ui.core.mvc"
     xmlns="sap.m">
-    <Page id="IdPageTitle" title="{i18n>title} I am Main View">
+    <Page id="IdPageTitle" title="View Main: {i18n>title}" class="sapUiContentPadding sapUiResponsivePadding--header sapUiResponsivePadding--subHeader sapUiResponsivePadding--content sapUiResponsivePadding--footer" showNavButton="false" navButtonPress="onNavBack">
         <content>
             <VBox id="hbox" justifyContent="Center" alignItems="Center">
                 <Button id="home_btn1" text="{i18n>buttonText}" press="onButtonPress"></Button>

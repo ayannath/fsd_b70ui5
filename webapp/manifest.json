@@ -100,6 +100,20 @@
           "target": [
             "TargetView4"
           ]
+        },
+        {
+          "name": "RouteView5",
+          "pattern": "view5simpleform",
+          "target": [
+            "TargetView5"
+          ]
+        },
+        {
+          "name": "RouteView6",
+          "pattern": "view6ObjectHeader",
+          "target": [
+            "TargetView6"
+          ]
         } 
       ],
       "targets": {
@@ -121,6 +135,16 @@
         "TargetView4": {
           "id": "View4Grid",
           "name": "View4Grid",
+          "transition": "slide"
+        },
+        "TargetView5": {
+          "id": "View5SimpleForm",
+          "name": "View5SimpleForm",
+          "transition": "slide"
+        },
+        "TargetView6": {
+          "id": "View6ObjectHeader",
+          "name": "View6ObjectHeader",
           "transition": "slide"
         }
       }

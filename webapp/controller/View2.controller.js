@@ -21,7 +21,7 @@ sap.ui.define([
             this.getView().byId("idBtnSubmit").setType("Reject");
             this.getView().byId("idTxtWelcome").setTextAlign("Left");
         },
-        onNextPage3() {
+        onNextPage2() {
             this.getOwnerComponent().getRouter().navTo("RouteView3");
         }
     });

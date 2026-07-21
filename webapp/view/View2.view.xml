@@ -1,7 +1,7 @@
 <mvc:View controllerName="com.clientname.b70sapui5.controller.View2"
     xmlns:mvc="sap.ui.core.mvc"
     xmlns="sap.m">
-    <Page id="idPageTitleBtn2" title="I am View 2- Getter and Setter" showNavButton="true" navButtonPress="onButtonPress2">
+    <Page id="idPageTitleBtn2" title="View 2: Getter and Setter" class="sapUiContentPadding sapUiResponsivePadding--header sapUiResponsivePadding--subHeader sapUiResponsivePadding--content sapUiResponsivePadding--footer" showNavButton="true" navButtonPress="onButtonPress2">
         <content>
             <!-- <HBox id="hbox2" width="100%"> -->
                 <Text id="idTxtWelcome" text="Welcome to SAP UI5" textAlign="Center" width="100%" class="sapMH1FontSize"></Text>
@@ -17,7 +17,7 @@
 				<Button text="Reject" type="Reject" />
 				<Button text="Edit" />
 				<Button text="Delete" />
-                <Button text="Next" type="Emphasized" press="onNextPage3" />
+                <Button text="Next" type="Emphasized" press="onNextPage2" />
 			</OverflowToolbar>
 		</footer>
     </Page>

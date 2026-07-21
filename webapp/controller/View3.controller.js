@@ -11,7 +11,7 @@ sap.ui.define([
             // this.getOwnerComponent().getRouter().navTo("RouteView2");
             history.go(-1);
         },
-        onPageView4Grid() {
+        onPageView3Grid() {
             this.getOwnerComponent().getRouter().navTo("RouteView4");
         }
     });

@@ -2,7 +2,7 @@
     xmlns:mvc="sap.ui.core.mvc"
     xmlns="sap.m"
     xmlns:l="sap.ui.layout">
-    <Page id="page" title="Grid Page Demo" showNavButton="true" navButtonPress="onNavBack">
+    <Page id="page" title="View 4: Grid Page Demo" class="sapUiContentPadding sapUiResponsivePadding--header sapUiResponsivePadding--subHeader sapUiResponsivePadding--content sapUiResponsivePadding--footer" showNavButton="true" navButtonPress="onNavBack">
         <content>
             <Panel id="idPanelEmployee" headerText="Employee Details" expandable="true" expanded="true">
                 <l:Grid id="idGridEmployee" defaultSpan="L6 M6 S12" hSpacing="1" vSpacing="0">
@@ -125,5 +125,12 @@
                 </l:Grid>
             </Panel>
         </content>
+        <footer>
+			<OverflowToolbar>
+				<ToolbarSpacer/>
+				<Button text="Accept" type="Accept" />
+				<Button id="idNextBtn4" text="Next" type="Emphasized" press="onPageView4Grid" />
+			</OverflowToolbar>
+		</footer>
     </Page>
 </mvc:View>

@@ -3,7 +3,7 @@ sap.ui.define([
 ], (Controller) => {
     "use strict";
 
-    return Controller.extend("com.clientname.b70sapui5.controller.View4Grid", {
+    return Controller.extend("com.clientname.b70sapui5.controller.View6ObjectHeader", {
         onInit() {
         },
 
@@ -11,9 +11,9 @@ sap.ui.define([
             history.go(-1);
         },
 
-        onPageView4Grid() {
-            this.getOwnerComponent().getRouter().navTo("RouteView5");
-        }
+        // onPageView6() {
+        //     this.getOwnerComponent().getRouter().navTo("RouteView7");
+        // }
         
     });
 });

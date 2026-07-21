@@ -1,0 +1,91 @@
+<mvc:View controllerName="com.clientname.b70sapui5.controller.View5SimpleForm"
+    xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form" xmlns:core="sap.ui.core">
+    <Page id="idView5Grid" title="View 5: Simple Form" class="sapUiContentPadding sapUiResponsivePadding--header sapUiResponsivePadding--subHeader sapUiResponsivePadding--content sapUiResponsivePadding--footer" showNavButton="true" navButtonPress="onNavBack">
+        <content>
+            <!-- central form -->
+            <f:SimpleForm id="idSimpleForm" title="Employee Details" editable="true" layout="ResponsiveGridLayout" labelSpanL="6" labelSpanM="6" emptySpanL="4" emptySpanM="4">
+                <f:content>
+                    <Label text="Employee ID" class="sapUiTinyMarginTop"></Label>
+                    <Input></Input>
+                    <Label text="Employee Name" class="sapUiTinyMarginTop"></Label>
+                    <Input></Input>
+                    <Label text="Employee Designation" class="sapUiTinyMarginTop"></Label>
+                    <Input></Input>
+                    <Label text="Employee Skill" class="sapUiTinyMarginTop"></Label>
+                    <Input></Input>
+                    <Label text="Employee Email Id" class="sapUiTinyMarginTop"></Label>
+                    <Input></Input>
+                    <Label text="Employee Phone Number" class="sapUiTinyMarginTop"></Label>
+                    <Input></Input>
+                </f:content>
+            </f:SimpleForm>
+
+            <!-- multi-column form -->
+            <f:SimpleForm id="idSimpleForm2" title="Personal Details" editable="true" layout="ResponsiveGridLayout" labelSpanL="3" labelSpanM="3" emptySpanL="0" emptySpanM="0" columnsL="3" columnsM="2">
+                <f:content>
+                    <core:Title text="Basic Details"></core:Title>
+                    <Label text="Employee ID" class="sapUiTinyMarginTop"></Label>
+                    <Input></Input>
+                    <Label text="Employee Name" class="sapUiTinyMarginTop"></Label>
+                    <Input></Input>
+                    <Label text="Employee Designation" class="sapUiTinyMarginTop"></Label>
+                    <Input></Input>
+                    <core:Title text="Other Details"></core:Title>
+                    <Label text="Employee Email Id" class="sapUiTinyMarginTop"></Label>
+                    <Input></Input>
+                    <Label text="Employee Phone Number" class="sapUiTinyMarginTop"></Label>
+                    <Input></Input>
+                    <core:Title text="Skill Details"></core:Title>
+                    <Label text="Employee Skill" class="sapUiTinyMarginTop"></Label>
+                    <Input></Input>
+                </f:content>
+            </f:SimpleForm>
+
+            <!-- vertical layout -->
+             <VBox >
+                 <Button text="Button 1"></Button>
+                 <Button text="Button 2"></Button>
+            </VBox>
+
+            <!-- horizontal layout -->
+             <HBox >
+                 <Button text="Button 3"></Button>
+                 <Button text="Button 4"></Button>
+            </HBox>
+
+            <!-- flex layout
+                usecase: 1) to display buttons in a row and wrap them to the next line if the screen size is small 
+                        2) if you want UI element(s) at the begin or the center or the end of the row, you can use justifyContent property of FlexBox
+                        3)
+            -->
+            <FlexBox justifyContent="Center">
+                <Button text="Button 5"></Button>
+                <Button text="Button 6"></Button>
+            </FlexBox>
+            <FlexBox justifyContent="End">
+                <Button text="Button 5"></Button>
+                <Button text="Button 6"></Button>
+            </FlexBox>
+
+            <FlexBox justifyContent="SpaceBetween">
+                <Button text="Button 5"></Button>
+                <Button text="Button 6"></Button>
+                <Button text="Button 6"></Button>
+                <Button text="Button 6"></Button>
+            </FlexBox>
+
+            <FlexBox justifyContent="Center" alignItems="Center" height="100%" width="100%">
+                <Button text="Center 5"></Button>
+                <Button text="Center 6"></Button>
+            </FlexBox>
+
+        </content>
+        <footer>
+			<OverflowToolbar>
+				<ToolbarSpacer/>
+				<Button text="Accept" type="Accept" />
+				<Button id="idNextBtn5" text="Next" type="Emphasized" press="onPageView5Grid" />
+			</OverflowToolbar>
+		</footer>
+    </Page>
+</mvc:View>
